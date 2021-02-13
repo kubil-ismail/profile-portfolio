@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+}
+
+.MuiTypography-h1 {
+  font-size: 36px !important;
+  font-weight: normal !important;
+}
+
+.MuiTypography-h2 {
+  font-size: 26px !important;
+  font-weight: normal !important;
+}
+
+.MuiTypography-h3 {
+  font-size: 16px !important;
+  font-weight: normal !important;
+}
+
+.MuiTypography-h6 {
+  font-weight: lighter !important;
+  font-size: 20px !important;
+}
+
+.MuiTypography-body1 {
+  font-weight: lighter !important;
+  font-size: 15px !important;
+}
+
+.text-italic {
+  font-style: italic;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.MuiTypography-colorSecondary {
+  color: #fff !important;
+}
