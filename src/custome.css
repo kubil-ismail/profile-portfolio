@@ -1,5 +1,10 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
+  overflow-x: hidden;
 }
 
 .MuiTypography-h1 {
@@ -37,4 +42,24 @@ body {
 
 .MuiTypography-colorSecondary {
   color: #fff !important;
+}
+.image-circle {
+  border-radius: 50%;
+}
+.img-border {
+  border: 1px solid #c0c0c080;
+}
+.MuiButton-contained {
+  background-color: #303030 !important;
+  color: white !important;
+  padding: 8px 30px !important;
+  border-radius: 20px !important;
+  box-shadow: none !important;
+}
+.MuiButton-outlined {
+  color: #303030 !important;
+  border: 1px solid #303030 !important;
+  padding: 8px 30px !important;
+  border-radius: 20px !important;
+  box-shadow: none !important;
 }

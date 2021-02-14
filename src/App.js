@@ -6,6 +6,8 @@ import Service from "./components/Service";
 import Works from "./components/Works";
 import Collaborates from "./components/Collabortes";
 import Testimonials from "./components/Testimonials";
+import Cta from "./components/Cta";
+import Footer from "./components/Footer";
 
 export default function App() {
   return (
@@ -17,6 +19,8 @@ export default function App() {
       <Works />
       <Collaborates />
       <Testimonials />
+      <Cta />
+      <Footer />
     </>
   );
 }

@@ -8,7 +8,7 @@ export default function Headmaster() {
     <div className={styled.headmaster}>
       <div>
         <Box marginY={10}>
-          <Grid container justify="center" >
+          <Grid container justify="center">
             <Grid item lg={2}>
               <div className={styled.profile}>
                 <img
@@ -26,10 +26,12 @@ export default function Headmaster() {
             I work beautiful code, and design great UI/UX
           </Text>
           <center>
-            <AiOutlineArrowDown
-              fontSize="25px"
-              className="animate__animated animate__heartBeat animate__slow animate__infinite cursor-pointer"
-            />
+            <a href="#detail" style={{ color: "black" }}>
+              <AiOutlineArrowDown
+                fontSize="25px"
+                className="animate__animated animate__heartBeat animate__slow animate__infinite cursor-pointer"
+              />
+            </a>
           </center>
         </Box>
       </div>

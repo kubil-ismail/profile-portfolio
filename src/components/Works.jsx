@@ -1,4 +1,5 @@
 import React from "react";
+import styled from "../style.module.css";
 import {
   Grid,
   Typography as Text,
@@ -9,15 +10,13 @@ import {
 
 export default function Works() {
   return (
-    <div>
+    <div className={styled.works}>
       <Container>
-        <Text
-          variant="h1"
-          align="center"
-          gutterBottom
-          style={{ marginBottom: "50px" }}
-        >
+        <Text variant="h1" align="center" gutterBottom>
           My Recent Works
+        </Text>
+        <Text align="center" style={{ marginBottom: "50px" }}>
+          Lets look what people said that I’ve work with
         </Text>
         <Grid container spacing={5}>
           {[
@@ -66,7 +65,12 @@ export default function Works() {
           ].map((val, key) => (
             <Grid items lg={4} key={key}>
               <Box padding={1} marginBottom={1}>
-                <img src={val.img} width="100%" />
+                <img
+                  src={val.img}
+                  width="100%"
+                  alt="services"
+                  className="img-border"
+                />
                 <Grid container alignItems="center" justify="space-between">
                   <Grid item lg={6}>
                     <Text variant="h5">{val.title}</Text>
