@@ -18,12 +18,15 @@ export default function Story() {
             This is story about me
           </Text>
           <Text align="center" color="secondary">
-            Hello, I’m Bilkis Ismail, I am Fullstack Mobile Developer and UI/UX
-            Designer. I am a graduate of Information technology,
-            <br /> I often collaborate with people who have talent in this
-            field, and I also have a large portfolio that you can see in this
-            web.
-            <br /> I am friendly, curious, passionate, and disciplined
+            Hello, I’m Haikal Nurkalam, I am an UI / UX Designer and Front end{" "}
+            <br />
+            developer. I am a graduate of Information technology, I often
+            <br />
+            collaborate with people who have talent in this field, and I also
+            <br />
+            have a large portfolio that you can see in this web. I am friendly,
+            <br />
+            curious, passionate, and disciplined
           </Text>
         </div>
       </div>

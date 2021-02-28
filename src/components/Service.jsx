@@ -14,19 +14,19 @@ export default function Service() {
         </Text>
         {[
           {
-            title: "Fullstack Mobile Developer",
+            title: "UI/UX Design",
             body: (
               <Text gutterBottom style={{ marginBottom: "15px" }} align="left">
-                I make web applications accordingly your needs, starting from
-                the landing page, <br />
-                company profile, online shop, web tools companies, as well as
-                web finance
+                I make a good application design web or mobile, make <br />
+                illustrations good, prototyping for app testing, as well as an{" "}
+                <br />
+                incredible mockup
               </Text>
             ),
             skills: (
               <Text className="text-italic" align="left">
-                PHP, Javascript, NodeJS, MySQL, Laravel, <br /> ReactJS, Vue,
-                Bootstrap, Codeigniter
+                Figma, Adobe XD, Zeplin, Sketch, ProtoPie Framer, <br />
+                InvisionApp
               </Text>
             ),
             image: (
@@ -40,18 +40,19 @@ export default function Service() {
             textAlign: "left",
           },
           {
-            title: "UI/UX Design",
+            title: "Web Application",
             body: (
               <Text gutterBottom style={{ marginBottom: "15px" }} align="right">
-                I make a good application design web or mobile, make
-                illustrations good, <br /> prototyping for app testing, as well
-                as an incredible mockup
+                I make web applications accordingly your needs, starting from
+                <br />
+                the landing page, company profile, online shop, web tools <br />
+                companies, as well as web finance
               </Text>
             ),
             skills: (
               <Text className="text-italic" align="right">
-                Skills Figma, Adobe XD , Sketch, ProtoPie Zeplin, <br /> Framer,
-                InvisionApp
+                PHP, Javascript, NodeJS, MySQL, Laravel ReactJS, Vue, <br />
+                Bootstrap, Codeigniter
               </Text>
             ),
             image: (
